@@ -1,6 +1,7 @@
-const   express = require('express'),
-        HTTP_PORT = process.env.PORT || 8080,
-        app = express();
+const express = require('express'),
+    app = express();
+
+var HTTP_PORT = process.env.PORT || 8080;
 
 app.use(express.static('public'));
 app.set('view engine', 'ejs');
