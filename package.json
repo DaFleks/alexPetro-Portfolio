@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/DaFleks/alexPetro-Portfolio/issues"
   },
-  "homepage": "https://github.com/DaFleks/alexPetro-Portfolio#readme"
+  "homepage": "https://github.com/DaFleks/alexPetro-Portfolio#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  }
 }
