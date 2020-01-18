@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: url("../img/photo.jfif") no-repeat 0% 0%;
+    background-size: cover;
+}
+
+.home {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    height:20%;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 0.2px 1.5px 3px #000000,
+        0.5px 0px 1px #000000;
+
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.name {
+    font-size: 1.5em;
+    letter-spacing: 0.5em;
+}
+
+.tagline {
+    font-size: 1.00em;
+    letter-spacing: 0.5em;
+}
+
+.line {
+    width: 50%;
+}
+
+.btn {
+    border-radius: 5px;
+    background: rgb(119, 85, 53);
+    padding: 3%;
+    box-shadow: 0.5px 0.5px 5px black;
+}
+
+.content a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 0.50em;
+    letter-spacing: 0.50em;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    /* border: 1px solid blue; */
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 0.2px 1.5px 3px #000000,
+    0.5px 0px 1px #000000;
+}
+
+
+
+@media screen and (max-width: 425px) {
+    .container {
+        background-position: 55% 0%;
+    }
+    .home {
+        height: 812px;
+    }
+    .content {
+        height: 12.50%;
+    }
+    .name {
+        font-size: 0.90em;
+    }
+
+    .tagline {
+        font-size: 0.70em;
+    }
+
+    .content a {
+        font-size: 0.150em;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .name {
+        font-size: 0.80em;
+    }
+    .tagline {
+        font-size: 0.60em;
+    }
+}
