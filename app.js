@@ -9,10 +9,6 @@ app.get('/', (req, res) => {
     res.render('index');
 })
 
-app.get('*', (req, res) => {
-
-})
-
 app.listen(HTTP_PORT, () => {
     console.log('Server running on port: ' + HTTP_PORT);
 })
